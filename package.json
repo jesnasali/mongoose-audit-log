@@ -1,0 +1,73 @@
+{
+  "_from": "mongoose-audit-log",
+  "_id": "mongoose-audit-log",
+  "_inBundle": false,
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mongoose-audit-log",
+    "name": "mongoose-audit-log",
+    "escapedName": "mongoose-audit-log",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_spec": "mongoose-audit-log",
+  "bugs": {
+    "url": "https://github.com/jesnasali/mongoose-audit-log"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Muhammad Ali",
+      "email": "jesnasali@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "deep-empty-object": "^1.0.5",
+    "jsondiffpatch": "^0.1.38",
+    "lodash.pick": "^4.4.0",
+    "omit-deep": "git://github.com/izigibran/omit-deep.git#0.4.0",
+    "power-assign": "^0.2.10"
+  },
+  "deprecated": false,
+  "description": "Stores and Manages all the differences and versions, any Mongo collection goes through it's lifecycle.",
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^2.5.3",
+    "mongoose": "^4.13.9"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/jesnasali/mongoose-audit-log#readme",
+  "keywords": [
+    "mongoose",
+    "audit",
+    "oplog",
+    "diff",
+    "history",
+    "versioning"
+  ],
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "name": "mongoose-audit-log",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesnasali/mongoose-audit-log.git"
+  },
+  "scripts": {
+    "test": "istanbul cover --report lcov  _mocha tests --recursive"
+  },
+  "version": "1.0.0"
+}
